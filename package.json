@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-to-grapheme-cluster-iterator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Create an iterator which iterates over grapheme clusters.",
   "license": "Apache-2.0",
   "author": {
