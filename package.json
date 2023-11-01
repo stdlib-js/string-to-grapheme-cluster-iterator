@@ -41,7 +41,7 @@
     "@stdlib/assert-is-string": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/string-next-grapheme-cluster-break": "^0.1.0",
-    "@stdlib/symbol-iterator": "^0.1.0",
+    "@stdlib/symbol-iterator": "^0.1.1",
     "@stdlib/types": "^0.1.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
