@@ -228,6 +228,13 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-to-iterator`][@stdlib/array/to-iterator]</span><span class="delimiter">: </span><span class="description">create an iterator from an array-like object.</span>
+-   <span class="package-name">[`@stdlib/string-to-grapheme-cluster-iterator-right`][@stdlib/string/to-grapheme-cluster-iterator-right]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates from right to left over grapheme clusters.</span>
+
 </section>
 
 <!-- /.related -->
@@ -250,6 +257,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -294,7 +306,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/tree/esm
 [branches-url]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/blob/main/branches.md
 
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-to-grapheme-cluster-iterator/main/LICENSE
+
 [unicode-text-segmentation]: http://www.unicode.org/reports/tr29/
+
+<!-- <related-links> -->
+
+[@stdlib/array/to-iterator]: https://github.com/stdlib-js/array-to-iterator
+
+[@stdlib/string/to-grapheme-cluster-iterator-right]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator-right
+
+<!-- </related-links> -->
 
 </section>
 
