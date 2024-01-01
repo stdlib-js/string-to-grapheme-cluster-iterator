@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isIteratorLike = require( '@stdlib/assert-is-iterator-like' );
 var pkg = require( './../package.json' ).name;
 var graphemeClusters2iterator = require( './../lib' );
