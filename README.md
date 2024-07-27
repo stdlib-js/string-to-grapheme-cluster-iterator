@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import graphemeClusters2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-to-grapheme-cluster-iterator@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/tags). For example,
+
+```javascript
 import graphemeClusters2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-to-grapheme-cluster-iterator@v0.2.1-esm/index.mjs';
 ```
 
@@ -181,7 +186,7 @@ var count = ctx.count;
 <body>
 <script type="module">
 
-import graphemeClusters2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-to-grapheme-cluster-iterator@v0.2.1-esm/index.mjs';
+import graphemeClusters2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-to-grapheme-cluster-iterator@esm/index.mjs';
 
 function repeat( str ) {
     return str + str;
