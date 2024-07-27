@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-to-grapheme-cluster-iterator
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import graphemeClusters2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-to-grapheme-cluster-iterator@esm/index.mjs';
+var graphemeClusters2iterator = require( '@stdlib/string-to-grapheme-cluster-iterator' );
 ```
 
 #### graphemeClusters2iterator( src\[, mapFcn\[, thisArg]] )
@@ -175,13 +193,8 @@ var count = ctx.count;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import graphemeClusters2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-to-grapheme-cluster-iterator@esm/index.mjs';
+```javascript
+var graphemeClusters2iterator = require( '@stdlib/string-to-grapheme-cluster-iterator' );
 
 function repeat( str ) {
     return str + str;
@@ -199,10 +212,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -241,7 +250,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -250,6 +259,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -266,8 +280,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-to-grapheme-cluster-iterator.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-to-grapheme-cluster-iterator
 
-[test-image]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-to-grapheme-cluster-iterator/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-to-grapheme-cluster-iterator?branch=main
@@ -297,13 +311,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-readme]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator/blob/main/branches.md
 
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-to-grapheme-cluster-iterator/main/LICENSE
+
 [unicode-text-segmentation]: http://www.unicode.org/reports/tr29/
 
 <!-- <related-links> -->
 
-[@stdlib/array/to-iterator]: https://github.com/stdlib-js/array-to-iterator/tree/esm
+[@stdlib/array/to-iterator]: https://github.com/stdlib-js/array-to-iterator
 
-[@stdlib/string/to-grapheme-cluster-iterator-right]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator-right/tree/esm
+[@stdlib/string/to-grapheme-cluster-iterator-right]: https://github.com/stdlib-js/string-to-grapheme-cluster-iterator-right
 
 <!-- </related-links> -->
 
