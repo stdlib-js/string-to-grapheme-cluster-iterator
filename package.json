@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/string-next-grapheme-cluster-break": "^0.2.2",
     "@stdlib/symbol-iterator": "^0.2.2",
     "@stdlib/types": "^0.3.2",
