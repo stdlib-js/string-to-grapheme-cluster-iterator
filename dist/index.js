@@ -1,5 +1,32 @@
-"use strict";var p=function(e,t){return function(){return t||e((t={exports:{}}).exports,t),t.exports}};var d=p(function(j,m){
-var f=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),y=require('@stdlib/assert-is-function/dist'),w=require('@stdlib/assert-is-string/dist').isPrimitive,v=require('@stdlib/symbol-iterator/dist'),s=require('@stdlib/string-next-grapheme-cluster-break/dist'),g=require('@stdlib/error-tools-fmtprodmsg/dist');function l(e){var t,a,o,u,r;if(!w(e))throw new TypeError(g('1h13F',e));if(arguments.length>1){if(u=arguments[1],!y(u))throw new TypeError(g('1h12H',u));t=arguments[2]}return r=0,a={},u?f(a,"next",h):f(a,"next",b),f(a,"return",q),v&&f(a,v,x),a;function h(){var i,n;return o?{done:!0}:(n=s(e,r),n===-1?(o=!0,e.length?{value:u.call(t,e.substring(r),r,e),done:!1}:{done:!0}):(i=u.call(t,e.substring(r,n),r,e),r=n,{value:i,done:!1}))}function b(){var i,n;return o?{done:!0}:(n=s(e,r),n===-1?(o=!0,e.length?{value:e.substring(r),done:!1}:{done:!0}):(i=e.substring(r,n),r=n,{value:i,done:!1}))}function q(i){return o=!0,arguments.length?{value:i,done:!0}:{done:!0}}function x(){return u?l(e,u,t):l(e)}}m.exports=l
-});var F=d();module.exports=F;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Create an iterator which iterates over grapheme clusters.
+*
+* @module @stdlib/string-to-grapheme-cluster-iterator
+*
+* @example
+* var graphemeClusters2iterator = require( '@stdlib/string-to-grapheme-cluster-iterator' );
+*
+* var iter = graphemeClusters2iterator( '🌷🍕' );
+*
+* var v = iter.next().value;
+* // returns '🌷'
+*
+* v = iter.next().value;
+* // returns '🍕'
+*
+* var bool = iter.next().done;
+* // returns true
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
